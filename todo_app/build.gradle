@@ -1,0 +1,14 @@
+apply plugin: 'java'
+ /*-----   1 ----------  java –jar build//libs//todo-app-0.1.jar.  */
+version = 0.1
+sourceCompatibility = 1.6
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.manning.gia.todo.ToDoApp'
+    }
+}
+
+/* ------ 2 -------------
+
+
+*/
